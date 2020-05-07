@@ -77,7 +77,7 @@
                 $.ajax({
                     type : "POST",
                     data : "idjadwal="+idjadwal,
-                    url : "http://localhost/doctorcare/index.php/C_Dokter/deleteData",
+                    url : "http://localhost/Pemrograman-Web/DoctorCare/index.php/C_Dokter/deleteData",
                     success: function(result){
                         var resultObj = JSON.parse(result);
                         $("#error").html(resultObj.message);
@@ -92,7 +92,7 @@
                 $.ajax({
                 type : "GET",
                 data : "",
-                url : "http://localhost/doctorcare/index.php/C_Dokter/getData",
+                url : "http://localhost/Pemrograman-Web/DoctorCare/index.php/C_Dokter/getData",
                 success: function(result){
                     var resultObj = JSON.parse(result);
                     var dataHandler = $("#here");

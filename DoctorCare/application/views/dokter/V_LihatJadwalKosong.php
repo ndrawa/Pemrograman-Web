@@ -53,7 +53,7 @@
             if(!array_filter($jadwal_kosong)) { ?>
                 <div style="height: 65vh">
                     <div class="flex-center flex-column">
-                        <img style="width: 20%;" src='http://localhost/doctorcare/assets/pic/kosong.png'>
+                        <img style="width: 20%;" src='http://localhost/Pemrograman-Web/DoctorCare/assets/pic/kosong.png'>
                         <h5 class="animated fadeIn mb-3">Anda belum mengatur jadwal kosong. Silahkan menambahkan jadwal kosong dari halaman utama</h5>
                     </div>
                 </div>

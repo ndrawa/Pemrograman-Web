@@ -54,7 +54,7 @@
             if(!array_filter($jadwaltemu)) { ?>
                 <div style="height: 65vh">
                     <div class="flex-center flex-column">
-                        <img style="width: 20%;" src='http://localhost/doctorcare/assets/pic/kosong.png'>
+                        <img style="width: 20%;" src='http://localhost/Pemrograman-Web/DoctorCare/assets/pic/kosong.png'>
                         <h5 class="animated fadeIn mb-3">Anda belum mengatur jadwal temu. Silahkan menambahkan jadwal temu dari halaman utama</h5>
                     </div>
                 </div>
@@ -92,7 +92,7 @@
                 } else { ?>
                     <div style="height: 65vh">
                         <div class="flex-center flex-column">
-                            <img style="width: 20%;" src='http://localhost/doctorcare/assets/pic/kosong.png'>
+                            <img style="width: 20%;" src='http://localhost/Pemrograman-Web/DoctorCare/assets/pic/kosong.png'>
                             <h5 class="animated fadeIn mb-3">Anda belum mengatur jadwal temu. Silahkan menambahkan jadwal temu dari halaman utama</h5>
                         </div>
                     </div>

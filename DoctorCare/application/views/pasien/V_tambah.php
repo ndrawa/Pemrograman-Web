@@ -107,7 +107,7 @@
             $.ajax({
                 type    : "POST",
                 data    : "idjadwal="+idjadwal,
-                url     : "http://localhost/doctorcare/index.php/C_Pasien/fetchJadwalKosong",
+                url     : "http://localhost/Pemrograman-Web/DoctorCare/index.php/C_Pasien/fetchJadwalKosong",
                 success: function(result){
                     var resultObj = JSON.parse(result);
                     $("[name='idjadwal']").val(resultObj.idjadwal);
@@ -125,7 +125,7 @@
             $.ajax({
             type    : "GET",
             data    : "",
-            url     : "http://localhost/doctorcare/index.php/C_Pasien/getJadwalKosong",
+            url     : "http://localhost/Pemrograman-Web/DoctorCare/index.php/C_Pasien/getJadwalKosong",
             success: function(result){
                 var resultObj = JSON.parse(result);
                 var dataHandler = $("#here");
